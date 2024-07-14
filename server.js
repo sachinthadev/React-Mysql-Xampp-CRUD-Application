@@ -23,3 +23,17 @@ db.connect(function (error) {
       console.log("successfully Connected to DB");
     }
   });
+
+
+  server.listen(8085,function check(error) {
+    if (error) 
+    {
+    console.log("Error....dddd!!!!");
+    }
+
+    else 
+    {
+        console.log("Started....!!!! 8085");
+
+    }
+});
