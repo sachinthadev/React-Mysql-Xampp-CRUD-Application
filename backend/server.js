@@ -25,7 +25,7 @@ db.connect(function (error) {
   });
 
 
-  server.listen(9002,function check(error) {
+  server.listen(8085,function check(error) {
     if (error) 
     {
     console.log("Error....!!!!");
@@ -33,7 +33,7 @@ db.connect(function (error) {
 
     else 
     {
-        console.log("Started....!!!! 8085");
+        console.log("Started....!!!!");
 
     }
 });
